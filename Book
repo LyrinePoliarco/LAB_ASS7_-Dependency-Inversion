@@ -1,8 +1,8 @@
 public class Book implements Resource{
     private String bookTitle;
 
-    public Book(String bookTitleParam) {
-        this.bookTitle = bookTitleParam;
+    public Book(String bookTitleKo) {
+        this.bookTitle = bookTitleKo;
     }
 
     @Override

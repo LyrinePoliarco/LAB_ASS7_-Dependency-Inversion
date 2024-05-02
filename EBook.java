@@ -1,7 +1,7 @@
-public class Book implements Resource{
+public class EBook implements Resource{
     private String bookTitle;
 
-    public Book(String bookTitleKo) {
+    public EBook(String bookTitleKo) {
         this.bookTitle = bookTitleKo;
     }
 

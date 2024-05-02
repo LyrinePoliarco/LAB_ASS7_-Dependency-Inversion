@@ -1,7 +1,7 @@
-public class Theses implements Resource{
+public class Thesis implements Resource{
     private String thesisTitle;
 
-    public Theses(String thesesTitleParam) {
+    public Thesis(String thesesTitleParam) {
         this.thesisTitle = thesesTitleParam;
     }
 

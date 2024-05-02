@@ -1,8 +1,8 @@
 public class Capstone implements Resource{
     private String capstoneTitle;
 
-    public Capstone(String capstoneTitleParam) {
-        this.capstoneTitle = capstoneTitleParam;
+    public Capstone(String capstoneTitle) {
+        this.capstoneTitle = capstoneTitle;
     }
 
     @Override

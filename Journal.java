@@ -1,8 +1,8 @@
 public class Journal implements Resource{
     private String journalTitle;
 
-    public Journal(String journalTitleParam) {
-        this.journalTitle = journalTitleParam;
+    public Journal(String journalTitle) {
+        this.journalTitle = journalTitle;
     }
 
     @Override

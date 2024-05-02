@@ -1,8 +1,8 @@
-public class InternetAccess implements Resource {
+public class NetworkConnection implements Resource {
     private String internetAccess;
 
-    public InternetAccess(String internetAccessParam) {
-        this.internetAccess = internetAccessParam;
+    public NetworkConnection(String internetAccess) {
+        this.internetAccess = internetAccess;
     }
 
     @Override
